@@ -299,6 +299,7 @@ class Core {
                   'audio',
                   'css',
                   'documents',
+                  'download',
                   'downloads',
                   'files',
                   'fonts',
