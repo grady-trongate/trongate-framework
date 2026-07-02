@@ -8,6 +8,11 @@ The Trongate project uses the version format: `{major version}.{year}.{month}{da
 
 The current version of the framework is documented in its [license.txt](https://github.com/trongate/trongate-framework/blob/master/license.txt) file.
 
+## [2.2026.0525] - 2026-07-02
+
+### Added
+- **Core asset serving** — `'download'` added to the directory allowlist in `Core.php`. Module authors can now serve downloadable files from a `download/` subdirectory within their module, enabling clean self-contained backup-distribution endpoints without requiring changes outside the module. ([#243](https://github.com/trongate/trongate-framework/pull/243))
+
 ## [2.2026.0524] - 2026-06-24
 
 ### Fixed
