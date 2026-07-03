@@ -2,6 +2,8 @@
 /**
  * Login Module Configuration
  *
+ * 🔗 Quick start guide: https://trongate.io/documentation/trongate_way/understanding-trongates-login-system/quick-start
+ *
  * Defines authentication rules per user level. Each user level maps to a
  * target database table and specifies which columns serve as login identifiers,
  * where to redirect after login, and which view file to use for the login form.
